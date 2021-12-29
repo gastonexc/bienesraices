@@ -43,6 +43,30 @@ h4{
     margin-bottom: 2rem;
 }
 
+.light-font{
+    font-weight: 300;
+}
+
+.regular-font{
+    font-weight: 400;
+}
+
+.bold-font{
+    font-weight: 700;
+}
+
+.extra-bold-font{
+    font-weight: 900;
+}
+
+.centrar-texto{
+    text-align: center;
+}
+
+.sombra-iconos{
+    
+}
+
 /*Header*/
 
 .site-header.inicio{
@@ -96,6 +120,10 @@ h4{
 }
 
 .columna{
-    flex-basis: calc(33.3% - 1rem);
+    flex-basis: calc(33.3% - 4rem);
     text-align: center;
+}
+
+.columna h3{
+    text-transform: uppercase;
 }
